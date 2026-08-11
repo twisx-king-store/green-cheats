@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GREEN CHEATS</title>
+  <meta name="description" content="GREEN CHEATS - Gaming tools, guides and resources.">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #07100b;
+      color: #f1fff4;
+      min-height: 100vh;
+    }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(7,16,11,.95);
+      border-bottom: 1px solid #173b22;
+      padding: 18px 6%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      color: #39ff6a;
+      font-size: 24px;
+      font-weight: 900;
+      letter-spacing: 2px;
+    }
+    nav a {
+      color: #ccebd3;
+      text-decoration: none;
+      margin-left: 18px;
+      font-size: 14px;
+    }
+    nav a:hover { color: #39ff6a; }
+    .hero {
+      text-align: center;
+      padding: 90px 20px 70px;
+      background: radial-gradient(circle at top, #12391e 0, #07100b 55%);
+    }
+    .badge {
+      display: inline-block;
+      border: 1px solid #2ee85f;
+      color: #39ff6a;
+      padding: 7px 14px;
+      border-radius: 30px;
+      font-size: 12px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: clamp(42px, 10vw, 82px);
+      line-height: 1;
+      margin-bottom: 20px;
+      text-shadow: 0 0 25px rgba(57,255,106,.25);
+    }
+    h1 span { color: #39ff6a; }
+    .hero p {
+      max-width: 650px;
+      margin: auto;
+      color: #a9c5af;
+      line-height: 1.7;
+    }
+    .buttons { margin-top: 30px; }
+    .btn {
+      display: inline-block;
+      padding: 13px 22px;
+      margin: 6px;
+      border-radius: 9px;
+      text-decoration: none;
+      font-weight: bold;
+      border: 1px solid #39ff6a;
+    }
+    .primary { background: #39ff6a; color: #061008; }
+    .secondary { color: #39ff6a; background: #0b1b10; }
+    section { padding: 65px 6%; max-width: 1100px; margin: auto; }
+    .title { text-align: center; margin-bottom: 35px; }
+    .title h2 { font-size: 32px; margin-bottom: 10px; }
+    .title p { color: #8fa995; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: #0b1810;
+      border: 1px solid #193b23;
+      border-radius: 14px;
+      padding: 24px;
+      transition: .2s;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: #39ff6a;
+    }
+    .icon { font-size: 30px; margin-bottom: 15px; }
+    .card h3 { color: #39ff6a; margin-bottom: 10px; }
+    .card p { color: #9db7a3; line-height: 1.6; font-size: 14px; }
+    .download {
+      text-align: center;
+      background: #0b1b10;
+      border: 1px solid #1d542d;
+      border-radius: 18px;
+      padding: 40px 20px;
+    }
+    footer {
+      border-top: 1px solid #173b22;
+      text-align: center;
+      padding: 28px;
+      color: #718b78;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">GREEN CHEATS</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#tools">Tools</a>
+    <a href="#about">About</a>
+  </nav>
+</header>
+
+<main id="home">
+  <div class="hero">
+    <div class="badge">🎮 GAMING COMMUNITY</div>
+    <h1>GREEN <span>CHEATS</span></h1>
+    <p>
+      Welcome to GREEN CHEATS — a clean gaming hub for guides, tools,
+      resources and community updates.
+    </p>
+    <div class="buttons">
+      <a class="btn primary" href="#tools">Explore Now</a>
+      <a class="btn secondary" href="#about">Learn More</a>
+    </div>
+  </div>
+
+  <section id="tools">
+    <div class="title">
+      <h2>Our Resources</h2>
+      <p>Choose a category and discover what's available.</p>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <div class="icon">🎯</div>
+        <h3>Game Guides</h3>
+        <p>Tips, strategies and useful guides to improve your gameplay.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🛠️</div>
+        <h3>Gaming Tools</h3>
+        <p>A dedicated space for legitimate gaming utilities and resources.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🔥</div>
+        <h3>Latest Updates</h3>
+        <p>Keep your community updated with new releases and announcements.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">💚</div>
+        <h3>Community</h3>
+        <p>Build your GREEN CHEATS community and share gaming content.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="download">
+      <h2>GREEN CHEATS</h2>
+      <p style="color:#9db7a3; margin:15px auto; max-width:600px; line-height:1.6;">
+        This is your new website. You can later add your own game pages,
+        buttons, images, social links and other content.
+      </p>
+      <a class="btn primary" href="#home">Back to Top</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  © 2026 GREEN CHEATS — All rights reserved.
+</footer>
+
+</body>
+</html>
